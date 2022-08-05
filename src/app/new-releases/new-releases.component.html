@@ -1,0 +1,29 @@
+<h1>New Releases</h1>
+<p>Check out the newest hits!</p>
+<p>Click the <strong>album cover</strong> or <strong>artist name</strong> for more information</p>
+
+<!--Template-->
+<div class="content">
+    <div class="fxlayout">
+ 
+       <!-- Single "Responsive" Card-->
+       <div *ngFor="let release of releases" class="fxflex" [style.margin]="'20px'">
+           <mat-card [style.min-width]="'200px'">
+               <mat-card-header>
+                   <mat-card-title>{{release.name}}</mat-card-title>
+                   <mat-card-subtitle>New Release</mat-card-subtitle>
+               </mat-card-header>
+               <img mat-card-image [routerLink]="['/album/',release.id]" class="album-cover" [src]='release.images[0].url' alt="album art">
+               <strong>Release Date: </strong>{{release.release_date|date:'M/d/yy'}}<br />
+               <strong>Tracks: </strong>{{release.total_tracks}}<br /><br />
+               <mat-card-content>
+                   <mat-chip-list *ngFor="let artist of release.artists" aria-label="Artist selection">
+                       <mat-chip [routerLink]="['/artist/',artist.id]">{{artist.name}}</mat-chip> <!--Will need to add to template for each-->
+                   </mat-chip-list>
+               </mat-card-content>
+           </mat-card>
+       </div>
+       <!-- -->
+ 
+   </div>
+ </div>
