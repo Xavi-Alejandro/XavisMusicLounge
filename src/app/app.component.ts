@@ -1,10 +1,10 @@
 /*********************************************************************************
-* WEB422 – Assignment 05
+* WEB422 – Assignment 06
 * I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part of this
 * assignment has been copied manually or electronically from any other source (including web sites) or
 * distributed to other students.
 *
-* Name: Xavier Lozano Student ID: 129091187 Date: July 22nd 2022
+* Name: Xavier Lozano Student ID: 129091187 Date: August 5th 2022
 *
 ********************************************************************************/
 
