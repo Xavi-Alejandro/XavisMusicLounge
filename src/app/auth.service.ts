@@ -1,7 +1,8 @@
+
+import { environment } from './../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
-import { environment } from './../environments/environment';
 import jwt_decode from "jwt-decode";
 
 import User from './User';
@@ -36,7 +37,7 @@ export class AuthService {
     }
   }
   login(user: User): Observable<any> {
-    return this.http.post<any>(environment.userAPIBase + "/login", user, { observe: 'response' });
+    return this.http.post<any>(`${environment.userAPIBase}/login`, user, { observe: 'response' });
   }
   logout() {
     console.log("Before access token removal: " + localStorage.getItem('access_token'));
@@ -44,6 +45,6 @@ export class AuthService {
     console.log("After access token removal: " + localStorage.getItem('access_token'));
   }
   register(user: RegisterUser): Observable<any> {
-    return this.http.post<any>(environment.userAPIBase + "/register", user, { observe: 'response' });
+    return this.http.post<any>(`${environment.userAPIBase}/register`, user, { observe: 'response' });
   }
 }
