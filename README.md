@@ -1,27 +1,19 @@
-# Web422A4
+![Animated project thumbnail](https://portfoliogifs.s3.us-east-2.amazonaws.com/XavisMusicLounge.gif)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+# "Xavi's music lounge"
 
-## Development server
+Created with Angular and Node, this app has integrations with PassportJWT, MongoDB and Spotify's public API.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Spotiy connection
+- This app integrates Spotify's Web API to request data based on album names, artist names, and new releases. We use passportJWT to authenticate the connection.
+- Songs from various artist can be saved on the logged in user's profile to be loaded whenever the user logs in. 
+- Registered users can play 30 second clips from their favourite artists.
 
-## Code scaffolding
+# User storage
+- Registered users are stored on MongoDB using the "user-service" module's functions.
+- We use the request data from the main application to add, retrieve, and modify user information.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Application layout
+- The application is generated with Angular, and uses Angular's "Angular Material" themes to style and structure content dynamically.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
