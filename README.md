@@ -3,6 +3,8 @@
 
 # "Xavi's music lounge"
 
+_A minimalistic Spotify UI with the ability to search for your favorite artists, listen to songs, and save the songs to your own curated playlist._
+
 Created with Angular and Node, this app has integrations with PassportJWT, MongoDB and Spotify's public API.
 
 # Spotiy connection
