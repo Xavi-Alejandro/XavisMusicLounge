@@ -1,4 +1,5 @@
-![Animated project thumbnail](https://portfoliogifs.s3.us-east-2.amazonaws.com/XavisMusicLounge.gif)
+
+![XavisMusicLounge](https://github.com/Xavi-Alejandro/SenecaMusicService/assets/79874223/1d4fde08-f28f-4c63-84fc-cf354905f98f)
 
 # "Xavi's music lounge"
 
