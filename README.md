@@ -1,7 +1,7 @@
 
 ![XavisMusicLounge](https://github.com/Xavi-Alejandro/SenecaMusicService/assets/79874223/1d4fde08-f28f-4c63-84fc-cf354905f98f)
 
-# "Xavi's music lounge"
+# "Xavi's Music Lounge"
 
 _A minimalistic Spotify UI with the ability to search for your favorite artists, listen to songs, and save the songs to your own curated playlist._
 
@@ -18,5 +18,8 @@ Created with Angular and Node, this app has integrations with PassportJWT, Mongo
 
 # Application layout
 - The application is generated with Angular, and uses Angular's "Angular Material" themes to style and structure content dynamically.
+  
+
+## Application link: [Xavi's Music Lounge](https://legendary-tartufo-7b1cd1.netlify.app/register)
 
 
